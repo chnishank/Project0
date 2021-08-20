@@ -32,6 +32,17 @@ Import Data into MongoDB from command prompt.
 
 
 
+NOTE: To run queries in pymongo run "P0.py".
+      "QueryExe.py","QueryPrint.py" are python modules which are imported in "P0.py".
+      "QueryQue.txt" is Text file containing Exercise Questions which are read in "P0.py".
+
+
+
+
+
+
+
+
 
 --------------PROJECT 0 Exercise Queries--------------
 
