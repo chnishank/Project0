@@ -17,10 +17,10 @@ So need to create this folder.
 
 Then need to specify set the dbpath to the created directory in mongod.exe.
     Execute the following commands in command prompt.
-    C:\Program Files\MongoDB\Server\5.0\bin\mongod" --dbpath="c:\data\db
+    c:\>"C:\Program Files\MongoDB\Server\5.0\bin\mongod" --dbpath="c:\data\db"
 
 Now to run the MongoDB, need to open another command prompt and Execute the following command.
-    C:\Program Files\MongoDB\Server\4.2\bin>mongo.exe
+    C:\>"C:\Program Files\MongoDB\Server\5.0\bin\mongo"
 
 
 Execute the following commands to create Database in mongodb.
