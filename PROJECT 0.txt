@@ -11,29 +11,23 @@ Install the downloaded file, by default, it will be installed in the folder C:\P
 
 MongoDB requires a data folder to store its files. The default location for the MongoDB data directory is c:\data\db. 
 So need to create this folder. 
-
-Execute the following command sequence in command prompt.
-
-C:\mkdir data
-C:\mkdir data\db
+    Execute the following command sequence in command prompt.
+    C:\mkdir data
+    C:\mkdir data\db
 
 Then need to specify set the dbpath to the created directory in mongod.exe.
+    Execute the following commands in command prompt.
+    C:\Program Files\MongoDB\Server\5.0\bin\mongod" --dbpath="c:\data\db
 
-Execute the following commands in command prompt.
-C:\Program Files\MongoDB\Server\5.0\bin\mongod" --dbpath="c:\data\db
-
-Now to run the MongoDB, need to open another command prompt and issue the following command.
-C:\Program Files\MongoDB\Server\4.2\bin>mongo.exe
+Now to run the MongoDB, need to open another command prompt and Execute the following command.
+    C:\Program Files\MongoDB\Server\4.2\bin>mongo.exe
 
 
 Execute the following commands to create Database in mongodb.
+    > use P0
 
-> use P0
-
-
-Import Data into MongoDB
-
-C:\ajaysir\P0-Python-MongoDB\restaurants>"C:\Program Files\MongoDB\mongodbimport\100\bin\mongoimport" --db P0 --collection restaurants --type json --file restaurants.json
+    Import Data into MongoDB from command prompt.
+    C:\ajaysir\P0-Python-MongoDB\restaurants>"C:\Program Files\MongoDB\mongodbimport\100\bin\mongoimport" --db P0 --collection restaurants --type json --file restaurants.json
 
 
 
