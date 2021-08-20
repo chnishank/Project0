@@ -17,16 +17,16 @@ So need to create this folder.
 
 Then need to specify set the dbpath to the created directory in mongod.exe.
     Execute the following commands in command prompt.
-    c:\>"C:\Program Files\MongoDB\Server\5.0\bin\mongod" --dbpath="c:\data\db"
+    C:\>"C:\Program Files\MongoDB\Server\5.0\bin\mongod" --dbpath="c:\data\db"
 
 Now to run the MongoDB, need to open another command prompt and Execute the following command.
     C:\>"C:\Program Files\MongoDB\Server\5.0\bin\mongo"
 
 
-Execute the following commands to create Database in mongodb.
+Execute the following command to create Database in mongodb.
     > use P0
 
-    Import Data into MongoDB from command prompt.
+Import Data into MongoDB from command prompt.
     C:\ajaysir\P0-Python-MongoDB\restaurants>"C:\Program Files\MongoDB\mongodbimport\100\bin\mongoimport" --db P0 --collection restaurants --type json --file restaurants.json
 
 
