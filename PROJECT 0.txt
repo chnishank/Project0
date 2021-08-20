@@ -14,7 +14,7 @@ So need to create this folder.
 
 Execute the following command sequence in command prompt.
 
-C:\>mkdir data
+C:\mkdir data
 C:\mkdir data\db
 
 Then need to specify set the dbpath to the created directory in mongod.exe.
